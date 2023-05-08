@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from "./ieeeLogo.jpg";
-// import iEee from './iEee';
 import { Link} from "react-router-dom"
 
 import Ieee from "./Ieee";
@@ -8,6 +7,7 @@ import C2s2 from "./C2s2";
 import Acm from "./Acm";
 import GFG from "./GFG";
 import ToastMaster from "./ToastMaster";
+import cLOGO from './cLOGO.jpg';
 const Home = () => {
   return (
 
@@ -62,19 +62,23 @@ const Home = () => {
         </div>
         {/* nav bar end */}
         <div className="helix">
-          <h1 style={{fontSize: "5.5rem"}}>CLUB-HUB</h1> 
+          <h1 style={{fontSize: "5.5rem",color:"white"}}>CLUB-HUB</h1> 
         </div>
 
         <div className="ululu">
           <div class="lulu">
-            <div class="age"></div>
-            <div class="titu"></div>
+            <div class="age">
+            <img style={{height:"265px",width:"424px",objectFit:"cover",marginTop:"55px"}} src="https://static.wixstatic.com/media/0d4301_a3375181c4ad4214b34215bc16b16587~mv2.png" alt="" />
+            
+            </div>
+            
+            
            
           </div>
         </div>
 
         <div className="about1">
-          {/* <div className="img1" /> */}
+          {/* <div className="img1" /> */}  
 
           <article>
         <section className="card">
@@ -130,9 +134,67 @@ const Home = () => {
           </div>
         </section> 
       </article>
-
-         
+<div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        {/*GOOGLE FONTS*/}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" /> 
+        {/*footer*/}
+        <footer className="padding_4x">
+          <div className="flex">
+            <section className="flex-content padding_1x">
+              <h3>Top Products</h3>
+              <a href="#">Managed Website</a>
+              <a href="#">Manage Reputation</a>
+              <a href="#">Power Tools</a>
+              <a href="#">Marketing Service</a>
+            </section>
+            <section className="flex-content padding_1x">
+              <h3>Quick Links</h3>
+              <a href="#">Jobs</a>
+              <a href="#">Brand Assets</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Terms of Service</a>
+            </section>
+            <section className="flex-content padding_1x">
+              <h3>Features</h3>
+              <a href="#">Jobs</a>
+              <a href="#">Brand Assets</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Terms of Service</a>
+            </section>
+            <section className="flex-content padding_1x">
+              <h3>Resources</h3>
+              <a href="#">Guides</a>
+              <a href="#">Research</a>
+              <a href="#">Experts</a>
+              <a href="#">Agencies</a>
+            </section>
+            <section className="flex-content padding_1x">
+              <h3>Newsletter</h3>
+              <p>You can trust us. we only send promo offers,</p>
+              <fieldset className="fixed_flex">
+                <input type="email" name="newsletter" placeholder="Your Email Address" />
+                <button className="btn btn_2">Subscribe</button>
+              </fieldset>
+            </section>
+          </div>
+          <div className="flex">
+            <section className="flex-content padding_1x">
+              <p>Copyright ©2023 All rights reserved || website name</p>
+            </section>
+            <section className="flex-content padding_1x">
+              <a href="#"><i className="fa fa-facebook" /></a>
+              <a href="#"><i className="fa fa-twitter" /></a>
+              <a href="#"><i className="fa fa-dribbble" /></a>
+              <a href="#"><i className="fa fa-linkedin" /></a>
+            </section>
+          </div>
+        </footer>
+      </div>
         </div>
+        
       </div>
 
   )
