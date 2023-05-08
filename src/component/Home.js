@@ -134,7 +134,8 @@ const Home = () => {
           </div>
         </section> 
       </article>
-<div>
+      
+    <div style={{marginTop:"8 0px"}}>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         {/*GOOGLE FONTS*/}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -144,11 +145,14 @@ const Home = () => {
         <footer className="padding_4x">
           <div className="flex">
             <section className="flex-content padding_1x">
-              <h3>Top Products</h3>
-              <a href="#">Managed Website</a>
-              <a href="#">Manage Reputation</a>
-              <a href="#">Power Tools</a>
-              <a href="#">Marketing Service</a>
+              <h3>CLUB</h3>
+              <ul>
+              <li><a href="#">IEEE</a></li>
+              <li> <a href="#">ACM</a></li>
+              <li>  <a href="#">GFG</a></li>
+              <li> <a href="#">ToastMaster</a></li>
+              <li> <a href="#">C2S2</a></li>
+              </ul>
             </section>
             <section className="flex-content padding_1x">
               <h3>Quick Links</h3>
@@ -172,11 +176,11 @@ const Home = () => {
               <a href="#">Agencies</a>
             </section>
             <section className="flex-content padding_1x">
-              <h3>Newsletter</h3>
+              <h3>CLUB-HUB</h3>
               <p>You can trust us. we only send promo offers,</p>
               <fieldset className="fixed_flex">
                 <input type="email" name="newsletter" placeholder="Your Email Address" />
-                <button className="btn btn_2">Subscribe</button>
+                <button className="btn btn_2">Contact</button>
               </fieldset>
             </section>
           </div>
