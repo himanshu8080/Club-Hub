@@ -539,15 +539,20 @@ article {
   }
   section.card .visual,
   section.card:nth-of-type(odd) .visual {
+    position: relative;
     width: 150px;
     height: 150px;
     right: 16px;
     left: auto;
+    
   }
   section.card .visual img,
   section.card:nth-of-type(odd) .visual img {
+    position: absolute;
     width: 100%;
     height: auto;
+   
+  
   }
 }
 /* html {
