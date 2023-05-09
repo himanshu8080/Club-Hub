@@ -7,7 +7,8 @@ import C2s2 from "./C2s2";
 import Acm from "./Acm";
 import GFG from "./GFG";
 import ToastMaster from "./ToastMaster";
-import cLOGO from './cLOGO.jpg';
+import chLogo from './chLogo.png';
+import chC from './chC.png';
 const Home = () => {
   return (
 
@@ -25,41 +26,35 @@ const Home = () => {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
         <title>About page</title>
-        <div className="navbar">
-          <nav className="nav">
-            <div className="container">
-              <div className="logo">
-                <a href=""><span className="material-symbols-outlined">
-                    rocket_launch
-                  </span>
-                </a>
-                <a>
-                  <div className="bhen">
-                   
-                  </div>
-                </a>
-              </div>
-              <div id="mainListDiv" className="main_list">
-                <ul className="navlinks">
-                  <li><a href="/about page/index.html"><span className="material-symbols-outlined">
-                        manage_search
-                        {/* about */}
-                      </span></a></li>
-                  <li><a href="/login/signup/index.html"><span className="material-symbols-outlined">
-                        captive_portal
-                        {/* login */}
-                      </span></a></li>
-                  <li><a href="/maps/index.html"><span className="material-symbols-outlined">
-                        design_services
-                      </span></a></li>
-                  <li><a href="#"><span className="material-symbols-outlined">
-                        contact_page
-                      </span></a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
+       
+
+<div>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Navbar</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <nav className="navbar">
+          <div className="left">
+            <h1><img style={{height:"50px",width:"117px",marginTop:"7px",marginLeft:"120px"}} src={chLogo}/></h1>
+            <h1><img style={{height:"68px",width:"75px",marginTop:"-103px",marginLeft:"143px"}} src={chC}/></h1>
+          </div>
+          <div className="right">
+            <input type="checkbox" id="check" />
+            <label htmlFor="check" className="checkBtn">
+              <i className="fa fa-bars" />
+            </label>
+            <ul className="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
         {/* nav bar end */}
         <div className="helix">
           <h1 style={{fontSize: "5.5rem",color:"white"}}>CLUB-HUB</h1> 
@@ -67,11 +62,12 @@ const Home = () => {
 
         <div className="ululu">
           <div class="lulu">
-            <div class="age">
-            <img style={{height:"265px",width:"424px",objectFit:"cover",marginTop:"55px"}} src="https://static.wixstatic.com/media/0d4301_a3375181c4ad4214b34215bc16b16587~mv2.png" alt="" />
-            
+            {/* <div class="age"> */}
+            <img style={{height:"265px",width:"424px",marginTop:"-142px"}} src="https://static.wixstatic.com/media/0d4301_a3375181c4ad4214b34215bc16b16587~mv2.png" alt="" />
+            {/* </div> */}
+          <div class="age" >
+          "ClubHub is a cloud-based solution that enables associations and clubs to manage online registrations, payments, reports, matches, teams, communication and other operations. The platform includes a competition management functionality, which allows organizations to schedule multiple competitions,etc."
             </div>
-            
             
            
           </div>
@@ -135,7 +131,7 @@ const Home = () => {
         </section> 
       </article>
       
-    <div style={{marginTop:"8 0px"}}>
+    <div className="fotter" style={{marginTop:"80px"}}>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         {/*GOOGLE FONTS*/}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
